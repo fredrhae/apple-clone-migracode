@@ -57,8 +57,45 @@ body {
     text-decoration: none;
 }
 
-.products-highlights {
-    border: 1px solid yellowgreen;
+#macbook-air-banner {
+    background-color: #fbfbfd;
+    background-image: url("../resources/images/hero_macbookair_largetall.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 2000px 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1vw;
+    margin: 0;
+}
+
+.macbook-air{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 6vw;
+}
+
+.information-buy-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.headline {
+    font-size:x-large;
+    margin: 1.2vh;
+}
+
+#text-macbook-air {
+    width: 50%;
+}
+
+.product-image{
+    width: 100%;
+    height: 100%;
 }
 
 footer {
