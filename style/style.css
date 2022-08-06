@@ -11,13 +11,14 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding: 0% 10%;
+    height: 5%;
 }
 
 .navbar-link {
     color: #cecece;
     padding: 0px 8px;
     cursor: pointer;
-    font-size: 10;
+    font-size: 7.5;
     line-height: 1.23536;
     font-weight: 400;
     letter-spacing: -.022em;
@@ -31,6 +32,10 @@ body {
 .navbar-button {
     padding: 0px 10px;
     cursor: pointer;
+}
+
+.navbar img {
+    width: 1.4vw;
 }
 
 .banner-unicef {
